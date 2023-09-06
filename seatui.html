@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Seat Booking Portal For Movie</title>
+</head>
+
+<body>
+    <div class="movie-container">
+        <label style="text-align: center;"> Choose your movie:</label>
+        <select id="movie">
+            <option value="240">Spider-man: No Way Home (Rs.240)</option>
+            <option value="280">Venom: Let There Be Carnage (Rs.280)</option>
+            <option value="230">Gaddar 2 (Rs.230)</option>
+            <option value="260">KGF: Chapter 2 (Rs.260)</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Available</small>
+        </li>
+        <li>
+            <div class="seat is selected"></div>
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat is sold"></div>
+            <small>Sold</small>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat is sold"></div>
+            <div class="seat is sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat is sold"></div>
+            <div class="seat is sold"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat is sold"></div>
+            <div class="seat is sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat is sold"></div>
+            <div class="seat is sold"></div>
+            <div class="seat is sold"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+
+    <p class="text">
+       <div> You have Choosed <span id="count">0</span> seat </div>
+        <div class ="box" </div> <a href="checkoutdemo.html"> Pay Rs. <span id="total">0</span></a>
+       
+     </p>
+     <script src="script.js"></script>
+</body>
+
+</html>
